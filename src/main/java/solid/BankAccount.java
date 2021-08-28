@@ -10,5 +10,6 @@ class Main {
 public class BankAccount {
     public void transferMoney(BankAccount targetAccount, int amount) {
         //TODO => transfer amount of money to targetAccount
+        System.out.println("Transfer money in Thailand.");
     }
 }
