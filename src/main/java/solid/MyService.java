@@ -4,9 +4,14 @@ import java.util.Random;
 
 public class MyService {
 
+    Random random;
+
+    MyService(Random random) {
+        this.random = random;
+    }
+
     public String generateUUID() {
         String data = "DEMO";
-        Random random = new Random();
         int randomNumber = random.nextInt(10);
         return data + randomNumber;
     }
